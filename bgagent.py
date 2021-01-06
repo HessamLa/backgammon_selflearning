@@ -1,7 +1,7 @@
 from bgboard import BGBoard
 from scoring_utilities import BGScore
 
-class BackgammonAgent:
+class BGAgent: # Backgammon Agent
   def __init__(self, color):
     if(color.lower() == 'white'):
       self.__color = 0
